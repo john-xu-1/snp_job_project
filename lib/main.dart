@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:snp_job_project/entrance.dart';
+//import 'package:snp_job_project/entrance.dart';
+import 'home.dart';
 import 'color_scheme.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.from(colorScheme: const MyColors()),
-      home: const Entrance()
+      home: const Home()
     );
   }
 }
